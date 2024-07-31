@@ -63,7 +63,7 @@ fetch('http://127.0.0.1:8000/your-endpoint', {
 .then(data => console.log(data))
 .catch(error => console.error('Error:', error));
 ## Example Endpoints
-# GET /your-endpoint
+# GET
 
 Description: Retrieve data from the API.
 Example using curl:
@@ -80,7 +80,7 @@ fetch('http://127.0.0.1:8000/your-endpoint', {
 .then(response => response.json())
 .then(data => console.log(data))
 .catch(error => console.error('Error:', error));
-## POST /your-endpoint
+## POST 
 
 Description: Send data to the API.
 Example using curl:
